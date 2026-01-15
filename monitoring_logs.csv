@@ -1,0 +1,5 @@
+timestamp,model_version,model_type,input_summary,predicted_charges,latency_ms,feedback_score,feedback_text
+2026-01-15T15:31:25.274305,v1_old,baseline,"age=30, sex=male, bmi=27.5, children=0, smoker=yes, region=northeast",9415.883404867178,4.38690185546875,4,V2 seems more realistic for smokers
+2026-01-15T15:31:25.277845,v2_new,improved,"age=30, sex=male, bmi=27.5, children=0, smoker=yes, region=northeast",28868.515631323306,4.38690185546875,4,V2 seems more realistic for smokers
+2026-01-15T15:47:35.347052,v1_old,baseline,"age=61, sex=female, bmi=46.0, children=2, smoker=yes, region=southwest",24084.98365577804,4.049777984619141,4,that looks realistic
+2026-01-15T15:47:35.350769,v2_new,improved,"age=61, sex=female, bmi=46.0, children=2, smoker=yes, region=southwest",43089.75074951688,4.049777984619141,4,that looks realistic
